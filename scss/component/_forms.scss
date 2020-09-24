@@ -3,3 +3,25 @@
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
+ 
+[type="search"] {
+	font-size: 1.5em;
+	font-weight: bolder;
+	border: black solid 1px;
+	border-radius: 4px;
+	margin: 19.92px 0;
+	&:focus {
+		outline: 0;
+		&::placeholder {
+			transition: color .6s;
+			color: transparent;
+		}
+	}
+}
+
+::placeholder {
+	color: black;
+	opacity: 1;
+	text-align: center;
+}
+

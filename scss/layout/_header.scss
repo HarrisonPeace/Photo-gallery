@@ -3,3 +3,13 @@
 /* ============================================= */
 /*                 Header                        */
 /* ============================================= */
+
+header {
+	display: column;
+	justify-content: space-around;
+	text-align: center;
+	padding-bottom: 1em;
+	@include mq(laptop) {
+		display: flex;
+	}
+}
