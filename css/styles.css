@@ -531,7 +531,7 @@ body {
 * {
   font-family: 'Dancing Script', cursive;
   color: #282828;
-  font-weight: 600; }
+  font-weight: 400; }
 
 /* Scss Document */
 /* ============================================= */
@@ -554,7 +554,12 @@ body {
   font-weight: bolder;
   border: black solid 1px;
   border-radius: 4px;
-  margin: 19.92px 0; }
+  margin: 19.92px 0;
+  background-image: url("../photos/search-icon2.png");
+  background-size: 26px 26px;
+  background-position: 2px 1.6px;
+  background-repeat: no-repeat;
+  padding-left: 30px; }
   [type="search"]:focus {
     outline: 0; }
     [type="search"]:focus::placeholder {
@@ -565,6 +570,10 @@ body {
   color: black;
   opacity: 1;
   text-align: center; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
 
 /* Scss Document */
 /* ============================================= */

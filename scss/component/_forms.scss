@@ -17,6 +17,11 @@
 			color: transparent;
 		}
 	}
+	background-image: url('../photos/search-icon2.png');
+	background-size: 26px 26px;
+	background-position: 2px 1.6px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
 }
 
 ::placeholder {
@@ -25,3 +30,7 @@
 	text-align: center;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0;
+}
